@@ -1,0 +1,42 @@
+.div-coffee-item-wrap {
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+
+.pictures {
+    width: 60%;
+	height: 10rem;
+	object-fit: cover;
+}
+
+.random {
+    width: 400px;
+    margin: auto;
+    padding: 2%;
+
+
+}
+.p-italic {
+    font-style: italic;
+}
+
+.div-coffee-alone {
+    height: 30%;
+    width: 30%;
+}
+
+.div-coffee-item-wrap {
+    display: flex;
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.div-text {
+    background-color: rgb(136, 133, 133);
+    width: 400px;
+    margin: auto;
+    padding: 2%;
+}
