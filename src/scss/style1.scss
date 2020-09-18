@@ -6,11 +6,18 @@ body {
     margin: 0rem;
 }
 
+.page_intro {
+    padding: 1rem;
+}
+
 .contentainer {
-    height: 100vh;
-    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    // min-height: 100vh;
+    @media (min-width: 550px) {
+        width: 80%;
+    }
     margin: 0rem auto;
-    border: 0.25rem solid red;
 }
 
 .container-header {
