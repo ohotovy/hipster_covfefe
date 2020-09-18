@@ -1,0 +1,36 @@
+.menu_menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    @media (min-width: 550px) {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    &__column {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 45%;
+        
+    }
+    &__block {
+        display: flex;
+        flex-direction: column;
+    }
+    &__row {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+    }
+}
+
+.menu_group {
+    display: flex;
+    flex-direction: column;
+    &__row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
