@@ -2,6 +2,7 @@
 .index_contacts {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     @media (min-width: 550px) {
         flex-direction: row;
     }
