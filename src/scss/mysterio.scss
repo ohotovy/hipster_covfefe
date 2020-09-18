@@ -1,0 +1,40 @@
+.myst_profile_cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    @media (min-width:550px) {
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
+}
+
+.myst_profile_card {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    @media (min-width:550px) {
+        width: 45%;
+        margin-top: 0rem;
+    }
+
+    &__img {
+        width: 7rem;
+        border-radius: 50%;
+    }
+
+    &__desc {
+        padding: 1rem;
+    }
+}
+
+.myst_contact_cont {
+    width: 100%;
+    align-self: center;
+    padding: 0rem auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
